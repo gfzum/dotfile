@@ -82,7 +82,7 @@ set laststatus=2
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
-"test"
+autocmd BufWritePost ~/.local/share/chezmoi/* ! chezmoi apply --source-path "%"
 
-
-
+"test in chezmoi"
+"test2 in chezmoi"
