@@ -1,0 +1,7 @@
+[data]
+         email = "gfzmder@gmail.com"
+         name = "gfzum"
+#[diff]
+#    command = "meld"
+#    args = ["--diff", "{{ .Destination }}", "{{ .Target }}"]
+
